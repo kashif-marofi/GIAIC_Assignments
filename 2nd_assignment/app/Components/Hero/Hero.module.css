@@ -1,4 +1,7 @@
 .paragraph{
     color: bisque;
     background-color: darkgreen;
+    padding: 2%;
+    width: 100%;
+    font-size: larger;
 }

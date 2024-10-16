@@ -40,3 +40,12 @@ a {
     color-scheme: dark;
   }
 }
+.pageContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.mainContent {
+  flex: 1;
+}

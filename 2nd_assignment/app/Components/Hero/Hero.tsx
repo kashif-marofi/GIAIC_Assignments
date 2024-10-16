@@ -14,7 +14,7 @@ const Hero = () => {
              Nihil consectetur, maxime mollitia vero provident ad dolorum ex earum quasi corporis, 
              inventore fugit,accusamus quis architecto placeat voluptatum 
              laboriosam adipisci? Nesciunt?</p>   
-        <p className={style.paagraph}>
+        <p className={style.paragraph}>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Reprehenderit blanditiis quae distinctio molestias
             voluptatibus, quaerat adipisci animi vel voluptate laudantium,

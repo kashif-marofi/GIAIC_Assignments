@@ -1,10 +1,19 @@
-import style from "./services.module.css"
-const ServicesPage = () =>{
-    return(
-        <div className={style.container}>
-        <h2 className={style.heading}>This is services page</h2>
-    </div>
-    )
-}
+import Hero from "./Components/Hero/Hero";
+import Header from "./Components/Header/Header";
+import Footer from "./Components/Footer/Footer";
+import styles from "./page.module.css";
 
-export default ServicesPage;
+const Homepage = () => {
+  return (
+    <div className={styles.pageContainer}>
+      <Header />
+      <main className={styles.mainContent}>
+        <Hero />
+        {/* Add your main content here */}
+      </main>
+      <Footer />
+    </div>
+  );
+};
+
+export default Homepage;
